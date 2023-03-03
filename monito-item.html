@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Detalhes Primária</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230303142121">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__left">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="index.html" class="menu__link icon-Home1">Home</a></li>
+								<li class="menu__item"><a href="#" class="menu__link icon-Dashboard2">Dashboar negocio</a></li>
+								<li class="menu__item"><a href="monitoramento.html" class="menu__link icon-Monitoramento">Monitoramento</a></li>
+								<li class="menu__item"><a href="panel.html" class="menu__link icon-Painel-Aeroporto1">Painel aeroporto</a></li>
+								<li class="menu__item"><a href="#" class="menu__link icon-Viagens">Viagens</a></li>
+								<li class="menu__item"><a href="#" class="menu__link icon-Relatorios">Relatorios</a></li>
+								<li class="menu__item"><a href="#" class="menu__link icon-Retroalimentacao">Retroalimentacao</a></li>
+								<li class="menu__item"><a href="#" class="menu__link icon-Cadastro">Cadastro</a></li>
+								<li class="menu__item"><a href="#" data-popup="#registration" class="menu__link enter-log icon-Logout">Sair</a></li>
+							</ul>
+						</nav>
+					</div>
+					<a href="../index.html" class="header__logo">
+						<img src="img/header/logo-header.svg" alt="">
+					</a>
+				</div>
+				<div class="header__right">
+					<div class="header__search">
+						<a href="#" class="icon-search"></a>
+						<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Procure por anomalias, viagens, etc" class="input">
+						<i class="icon-arrow-down"></i>
+					</div>
+					<div class="header__data-user">
+						<a href="#" class="header__chat ">
+							<img src="img/header/chat.svg" alt="">
+						</a>
+						<a href="#" class="header__lenguage">ER</a>
+						<select name="form[]" data-class-modif="form">
+							<option value="1" selected>Eitor Roberto</option>
+							<option value="2">Пункт №2</option>
+							<option value="3">Пункт №3</option>
+							<option data-href="#registration" value="4" class="red" data-popup="">Sair</option>
+						</select>
+					</div>
+				</div>
+
+			</div>
+		</header>
+
+		<main class="page">
+			<div class="page__container">
+				<aside class="menu-aside">
+					<div class="menu-aside__container">
+						<div class="menu-aside__items">
+							<a href="index.html" class="menu-aside__item">Home<i class="icon-Home1"></i></a>
+							<a href="#" class="menu-aside__item">Dashboard Negócio<i class="icon-Dashboard2"></i></a>
+							<a id="monitoramento" href="./monitoramento-empty.html" data-tippy-content="Ready to start" class="menu-aside__item ">Monitoramento<i class="icon-Monitoramento"></i></a>
+							<a href="./panel-empty.html" class="menu-aside__item" data-tippy-content="Ready to start">Painel de anomalias<i class="icon-road-sign-warning"></i></a>
+							<a href="#" class="menu-aside__item">Retroalimentação<i class="icon-Retroalimentacao"></i></a>
+							<a href="#" class="menu-aside__item">Disponibilidade<i class="icon-Trucks"></i></a></li>
+							<a href="#" class="menu-aside__item">Consulta de canhoto<i class="icon-notes-checklist-flip"></i></a>
+							<a href="#" class="menu-aside__item">Painel aeroporto<i class="icon-Painel-Aeroporto1"></i></a>
+							<a href="#" class="menu-aside__item">Viagens<i class="icon-Viagens"></i></a>
+							<a href="#" class="menu-aside__item">Relatórios<i class="icon-Relatorios"></i></a>
+							<a href="#" class="menu-aside__item">Cadastro<i class="icon-Cadastro"></i></a>
+						</div>
+					</div>
+
+				</aside>
+				<section id="single-page" class="main">
+					<header class="main__top">
+						<div class="main__way-links">
+							<a href="index.html" class="main__way">Home/ </a>
+							<a href="monitoramento.html" class="main__way">Monitoramento/ </a>
+							<a href="#" class="main__present-way">Viagem : 2030918<span></span></a>
+						</div>
+						<h1 class="main__title title "><a href="./monitoramento.html" class="icon-arrow-left"></a>Viagem: 2030918 - Placa: MCU3760</h1>
+					</header>
+					<div class="main__contant item-monito">
+						<div class="item-monito__links">
+							<a id="1" href="#" class="item-monito__link _active">Dados do transporte</a>
+							<a id="2" href="#" class="item-monito__link">Anomalias</a>
+							<a id="4" href="#" class="item-monito__link">Histórico</a>
+							<a id="3" href="#" class="item-monito__link">Etapas da viagem</a>
+						</div>
+						<div data-show="1" data-spollers class="spollers transport-spolers">
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Transporte</button>
+								<div class="spollers__body transport-spolers__body">
+									<h5 class="spollers__subtitle transport-spolers__subtitle icon-Vehicle">Transporte</h5>
+									<div class="transport-spolers__content">
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Número do transporte:</span>
+											<span class="text-simple">117128174</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Origem:</span>
+											<span class="text-simple">CNPJ - ID - Nome</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Modal:</span>
+											<span class="text-simple">Rodoviário</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Mercado:</span>
+											<span class="text-simple">MI</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Tipo de Projeto: </span>
+											<span class="text-simple">Alta produtividade</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">OCR:</span>
+											<span class="text-simple">104746820 15/12/2020 09:30</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Status de atendimento:</span>
+											<span class="text-simple">Atende </span>
+										</div>
+									</div>
+									<h5 class="spollers__subtitle transport-spolers__subtitle icon-maps-pin-1">Status da viagem</h5>
+									<div class="transport-spolers__content">
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Status da viagem:</span>
+											<span class="text-simple">Em movimento! Viagem ativa há 4 dias.</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Localização atual:</span>
+											<span class="text-simple text-simple_blue">Em Curitiba/PR
+												1.69 KM restantes para o próximo destino </span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Latitude / Longitude:</span>
+											<span class="text-simple">-20.115100, -44.891900</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Última atualização:</span>
+											<span class="text-simple">15/12/2020 15:34</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Chegada:</span>
+											<span class="text-simple">15/12/2020 16:00 - 15/12/2020 16:34</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Distância:</span>
+											<span class="text-simple">1.366KM - 1.406KM</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Status do espelhamento:</span>
+											<span class="text-simple text-simple_blue">Não espelhado</span>
+										</div>
+										<div class="transport-spolers__map">
+											<picture><source srcset="img/Mapa.webp" type="image/webp"><img src="img/Mapa.png" alt=""></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Transportador</button>
+								<div class="spollers__body">
+									<h5 class="spollers__subtitle transport-spolers__subtitle icon-Warehouse">Transportadora</h5>
+									<div class="transport-spolers__content">
+										<div class="transport-spolers__item">
+											<span class="text-bolt">CNPJ:</span>
+											<span class="text-simple">10.466.983/0001-00</span>
+
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Nome:</span>
+											<span class="text-simple">Turbosul Transportes LTDA</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Telefone:</span>
+											<span class="text-simple text-simple_blue">(41) 3278-6302</span>
+										</div>
+									</div>
+									<h5 class="spollers__subtitle transport-spolers__subtitle icon-single-neutral-profile-picture">Motorista</h5>
+									<div class="transport-spolers__content">
+										<div class="transport-spolers__item">
+											<span class="text-bolt">CPF:</span>
+											<span class="text-simple">804.100.909-30</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Nome:</span>
+											<span class="text-simple">João Maria Taborda de Campos</span>
+
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Telefone:</span>
+											<span class="text-simple text-simple_blue">(41) 99999-7777</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Veículo</button>
+								<div class="spollers__body">
+									<h5 class="spollers__subtitle transport-spolers__subtitle icon-delivery-truck-2">Veículo</h5>
+									<div class="transport-spolers__content">
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Cavalo:</span>
+											<span class="text-simple">MCU3760</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Descrição:</span>
+											<span class="text-simple">CAV MEC 3 EIXOS </span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Tara:</span>
+											<span class="text-simple">0KG</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Capacidade pallet:</span>
+											<span class="text-simple">28</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Controle de temperatura:</span>
+											<span class="text-simple">Sim</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Carreta:</span>
+											<span class="text-simple">MJJ5698</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Carreta:</span>
+											<span class="text-simple">MJJ5698</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Tipo de veículo:</span>
+											<span class="text-simple">Projeto</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Controle de temperatura:</span>
+											<span class="text-simple">Sim</span>
+										</div>
+
+									</div>
+									<h5 class="spollers__subtitle transport-spolers__subtitle icon-Tracker">Rastreador</h5>
+									<div class="transport-spolers__content">
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Tipo de tecnologia:</span>
+											<span class="text-simple">Onixsat</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Número da antena:</span>
+											<span class="text-simple">196675 </span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Tipo rastreador:</span>
+											<span class="text-simple">Cavalo</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Consolidado da carga</button>
+								<div class="spollers__body">
+									<h5 class="spollers__subtitle transport-spolers__subtitle icon-Weight">Valor</h5>
+									<div class="transport-spolers__content">
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Peso:</span>
+											<span class="text-simple">R$ XX.XXX,XX - R$ XX.XXX,XX</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Peso:</span>
+											<span class="text-simple">R$ XX.XXX,XX</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Peso devolvido:</span>
+											<span class="text-simple">R$ XX.XXX,XX</span>
+										</div>
+									</div>
+									<h5 class="spollers__subtitle transport-spolers__subtitle icon-Weight">Peso</h5>
+									<div class="transport-spolers__content">
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Valor pendente:</span>
+											<span class="text-simple">R$ XX.XXX,XX</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Valor devolvido:</span>
+											<span class="text-simple">R$ XX.XXX,XX</span>
+										</div>
+										<div class="transport-spolers__item">
+											<span class="text-bolt">Valor previsto:</span>
+											<span class="text-simple">R$ XX.XXX,XX - R$ XX.XXX,XX</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-show="2" hidden class="anomalias-spolers">
+							<h4 class="anomalias-spolers__title">Anomalias pendentes</h4>
+							<div data-spollers class="spollers anomalias-spolers__spoler">
+								<div class="spollers__item anomalias-spolers__item item-anomalias">
+									<div data-spoller class="spollers__title item-anomalias__content-title">
+										<h6 class="item-anomalias__title">Falta de espelhamento</h6>
+										<div class="item-anomalias__prioridade icon-graph-stats-ascend _alta">Alta prioridade</div>
+										<div class="item-anomalias__status">Pendente</div>
+										<div class="item-anomalias__tratar">Tratar anomalia</div>
+										<div class="item-anomalias__dates icon-calendar">09/11/2020 - 16:25</div>
+									</div>
+									<div class="spollers__body item-anomalias__body body-item-anomalias">
+										<div class="body-item-anomalias__box">
+											<h6 class="body-item-anomalias__subtitle">Eetalhes</h6>
+											<p class="body-item-anomalias__text">O veículo está a 3 horas sem espelhamento, último sinal enviado no horário 12:33</p>
+											<h6 class="body-item-anomalias__subtitle">Local da anomalia:</h6>
+											<p class="body-item-anomalias__text">Rua Almirante Dídio Costa, 54 - Jardim das Américas - Curitiba - PR, 81540-230</p>
+											<div class="body-item-anomalias__map">
+												<picture><source srcset="img/Mapa.webp" type="image/webp"><img src="img/Mapa.png" alt=""></picture>
+											</div>
+										</div>
+										<div class="body-item-anomalias__box body-item-anomalias__box_box-columns">
+											<h5 class="body-item-anomalias__title icon-single-neutral-profile-picture">Contatos</h5>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Motorista:</span>
+												<span class="text-simple">Adilson Santos</span>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Telefone:</span>
+												<span class="text-simple">(41) 99999-1234</span>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Comunicação:</span>
+												<div class="text-simple">
+													<img src="img/icons/Chat.svg" alt="">
+												</div>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Transportadora:</span>
+												<span class="text-simple">TURBOSUL TRANSPORTES LTDA</span>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Telefone:</span>
+												<span class="text-simple">(41) 8569599-1234</span>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Comunicação</span>
+												<div class="text-simple">
+													<img src="img/icons/Chat.svg" alt="">
+												</div>
+											</div>
+											<a href="" class="body-item-anomalias__link">Mostar mais contatos</a>
+										</div>
+										<div class="body-item-anomalias__tratativa">
+											<h5 class="body-item-anomalias__title-bold">Tratativa</h5>
+											<form action="" class="body-item-anomalias__form">
+												<h6>Status</h6>
+												<select name="form[]" data-class-modif="form">
+													<option value="">Escolha o status da anomalia</option>
+													<option value="1">sss</option>
+													<option value="2">Пункт №2</option>
+													<option value="3">Пункт №3</option>
+													<option value="4">Пункт №4</option>
+												</select>
+												<h6>Justificativa</h6>
+												<textarea name="" id="anomaliatext" cols="30" rows="10" placeholder="Escreva sua justificativa"></textarea>
+												<input type="submit" class="body-item-anomalias__btn" value="Salvar tratativa">
+											</form>
+										</div>
+										<div class="body-item-anomalias__way item-way">
+											<div class="item-way__item">
+												<p class="item-way__name">Eitor Roberto</p>
+												<p class="item-way__stand-by">Stand-by - 45 minutos</p>
+												<p class="item-way__status">Justificativa</p>
+												<p class="item-way__text">Rich in mystery across the centuries decipherment finite but unbounded Rig Veda globular star cluster. Rich in heavy atoms hydrogen atoms concept of the number one radio telescope at the edge of forever.</p>
+											</div>
+											<div class="item-way__item">
+												<p class="item-way__name">Eitor Roberto</p>
+												<p class="item-way__stand-by">Em andamento - 10 nov 2020</p>
+												<p class="item-way__status">Justificativa</p>
+												<p class="item-way__text">Rich in mystery across the centuries decipherment finite but unbounded Rig Veda globular star cluster. </p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div data-spollers class="spollers anomalias-spolers__spoler">
+								<div class="spollers__item anomalias-spolers__item item-anomalias">
+									<div data-spoller class="spollers__title item-anomalias__content-title">
+										<h6 class="item-anomalias__title">Excesso de velocidade</h6>
+										<div class="item-anomalias__prioridade icon-graph-stats-descend _baixa">Baixa prioridade</div>
+										<div class="item-anomalias__status">Pendente</div>
+										<div class="item-anomalias__tratar">Tratar anomalia</div>
+										<div class="item-anomalias__dates icon-calendar">09/11/2020 - 16:20</div>
+									</div>
+									<div class="spollers__body item-anomalias__body body-item-anomalias">
+										<div class="body-item-anomalias__box">
+											<h6 class="body-item-anomalias__subtitle">Eetalhes</h6>
+											<p class="body-item-anomalias__text">O veículo está a 3 horas sem espelhamento, último sinal enviado no horário 12:33</p>
+											<h6 class="body-item-anomalias__subtitle">Local da anomalia:</h6>
+											<p class="body-item-anomalias__text">Rua Almirante Dídio Costa, 54 - Jardim das Américas - Curitiba - PR, 81540-230</p>
+											<div class="body-item-anomalias__map">
+												<picture><source srcset="img/Mapa.webp" type="image/webp"><img src="img/Mapa.png" alt=""></picture>
+											</div>
+										</div>
+										<div class="body-item-anomalias__box body-item-anomalias__box_box-columns">
+											<h5 class="body-item-anomalias__title icon-single-neutral-profile-picture">Contatos</h5>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Motorista:</span>
+												<span class="text-simple">Adilson Santos</span>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Telefone:</span>
+												<span class="text-simple">(41) 99999-1234</span>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Comunicação:</span>
+												<div class="text-simple">
+													<img src="img/icons/Chat.svg" alt="">
+												</div>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Transportadora:</span>
+												<span class="text-simple">TURBOSUL TRANSPORTES LTDA</span>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Telefone:</span>
+												<span class="text-simple">(41) 8569599-1234</span>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Comunicação</span>
+												<div class="text-simple">
+													<img src="img/icons/Chat.svg" alt="">
+												</div>
+											</div>
+											<a href="" class="body-item-anomalias__link">Mostar mais contatos</a>
+										</div>
+										<div class="body-item-anomalias__tratativa">
+											<h5 class="body-item-anomalias__title-bold">Tratativa</h5>
+											<form action="" class="body-item-anomalias__form">
+												<h6>Status</h6>
+												<select name="form[]" data-class-modif="form">
+													<option value="">Escolha o status da anomalia</option>
+													<option value="1">sss</option>
+													<option value="2">Пункт №2</option>
+													<option value="3">Пункт №3</option>
+													<option value="4">Пункт №4</option>
+												</select>
+												<h6>Justificativa</h6>
+												<textarea name="" id="anomalia-text-2" cols="30" rows="10" placeholder="Escreva sua justificativa"></textarea>
+												<input type="submit" class="body-item-anomalias__btn" value="Salvar tratativa">
+											</form>
+										</div>
+										<div class="body-item-anomalias__way item-way">
+											<div class="item-way__item">
+												<p class="item-way__name">Eitor Roberto</p>
+												<p class="item-way__stand-by">Stand-by - 45 minutos</p>
+												<p class="item-way__status">Justificativa</p>
+												<p class="item-way__text">Rich in mystery across the centuries decipherment finite but unbounded Rig Veda globular star cluster. Rich in heavy atoms hydrogen atoms concept of the number one radio telescope at the edge of forever.</p>
+											</div>
+											<div class="item-way__item">
+												<p class="item-way__name">Eitor Roberto</p>
+												<p class="item-way__stand-by">Em andamento - 10 nov 2020</p>
+												<p class="item-way__status">Justificativa</p>
+												<p class="item-way__text">Rich in mystery across the centuries decipherment finite but unbounded Rig Veda globular star cluster. </p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<h4 class="anomalias-spolers__title">Anomalias finalizadas</h4>
+							<div data-spollers class="spollers anomalias-spolers__spoler">
+								<div class="spollers__item anomalias-spolers__item item-anomalias">
+									<div data-spoller class="spollers__title item-anomalias__content-title">
+										<h6 class="item-anomalias__title">Excesso de velocidade</h6>
+										<div class="item-anomalias__prioridade icon-graph-stats-descend _baixa">Baixa prioridade</div>
+										<div class="item-anomalias__status">Finalizada</div>
+										<div class="item-anomalias__dates icon-calendar">09/11/2020 - 16:20</div>
+									</div>
+									<div class="spollers__body item-anomalias__body body-item-anomalias">
+										<div class="body-item-anomalias__box">
+											<h6 class="body-item-anomalias__subtitle">Eetalhes</h6>
+											<p class="body-item-anomalias__text">O veículo está a 3 horas sem espelhamento, último sinal enviado no horário 12:33</p>
+											<h6 class="body-item-anomalias__subtitle">Local da anomalia:</h6>
+											<p class="body-item-anomalias__text">Rua Almirante Dídio Costa, 54 - Jardim das Américas - Curitiba - PR, 81540-230</p>
+											<div class="body-item-anomalias__map">
+												<picture><source srcset="img/Mapa.webp" type="image/webp"><img src="img/Mapa.png" alt=""></picture>
+											</div>
+										</div>
+										<div class="body-item-anomalias__box body-item-anomalias__box_box-columns">
+											<h5 class="body-item-anomalias__title icon-single-neutral-profile-picture">Contatos</h5>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Motorista:</span>
+												<span class="text-simple">Adilson Santos</span>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Telefone:</span>
+												<span class="text-simple">(41) 99999-1234</span>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Comunicação:</span>
+												<div class="text-simple">
+													<img src="img/icons/Chat.svg" alt="">
+												</div>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Transportadora:</span>
+												<span class="text-simple">TURBOSUL TRANSPORTES LTDA</span>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Telefone:</span>
+												<span class="text-simple">(41) 8569599-1234</span>
+											</div>
+											<div class="body-item-anomalias__point">
+												<span class="text-bolt">Comunicação</span>
+												<div class="text-simple">
+													<img src="img/icons/Chat.svg" alt="">
+												</div>
+											</div>
+											<a href="" class="body-item-anomalias__link">Mostar mais contatos</a>
+										</div>
+										<div class="body-item-anomalias__tratativa">
+											<h5 class="body-item-anomalias__title-bold">Tratativa</h5>
+											<form action="" class="body-item-anomalias__form">
+												<h6>Status</h6>
+												<select name="form[]" data-class-modif="form">
+													<option value="">Escolha o status da anomalia</option>
+													<option value="1">sss</option>
+													<option value="2">Пункт №2</option>
+													<option value="3">Пункт №3</option>
+													<option value="4">Пункт №4</option>
+												</select>
+												<h6>Justificativa</h6>
+												<textarea name="" id="anomalia-text" cols="30" rows="10" placeholder="Escreva sua justificativa"></textarea>
+												<input type="submit" class="body-item-anomalias__btn" value="Salvar tratativa">
+											</form>
+										</div>
+										<div class="body-item-anomalias__way item-way">
+											<div class="item-way__item">
+												<p class="item-way__name">Eitor Roberto</p>
+												<p class="item-way__stand-by">Stand-by - 45 minutos</p>
+												<p class="item-way__status">Justificativa</p>
+												<p class="item-way__text">Rich in mystery across the centuries decipherment finite but unbounded Rig Veda globular star cluster. Rich in heavy atoms hydrogen atoms concept of the number one radio telescope at the edge of forever.</p>
+											</div>
+											<div class="item-way__item">
+												<p class="item-way__name">Eitor Roberto</p>
+												<p class="item-way__stand-by">Em andamento - 10 nov 2020</p>
+												<p class="item-way__status">Justificativa</p>
+												<p class="item-way__text">Rich in mystery across the centuries decipherment finite but unbounded Rig Veda globular star cluster. </p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-show="3" hidden class="etapas-monito">
+							<div class="etapas-monito__row">
+								<a href="#" data-link="etap-1" class="etapas-monito__item  _done _visible">Início da viagem<span>17/11/2020 - 08:07</span></a>
+								<a href="#" data-link="etap-2" class="etapas-monito__item  _done _red">Abastecimento<span>17/11/2020 - 08:25</span></a>
+								<a href="#" data-link="etap-3" class="etapas-monito__item _done _red">Hipermercado Big<span>17/11/2020 - 10:20</span></a>
+								<a href="#" data-link="etap-4" class="etapas-monito__item _blue">Supermercado Condor<span>17/11/2020 - 09:27</span></a>
+								<a href="#" data-link="etap-5" class="etapas-monito__item ">Angeloni<span>17/11/2020 - 10:50</span></a>
+							</div>
+							<div class="etapas-monito__pagination pagination"><span class="pagination__left _active"></span><span class="pagination__right"></span></div>
+							<div id="etap-1" class="etapas-monito__content">
+								<h4 class="etapas-monito__main-subtitle">Você está visualizando:</h4>
+								<h3 class="etapas-monito__main-title">Início da viagem</h3>
+								<div data-spollers class="spollers etapas-monito__spollers">
+									<div class="spollers__item ">
+										<button type="button" data-spoller class="spollers__title _spoller-active _spoller-active">Tracking</button>
+										<div class="spollers__body">
+											<div class="etapas-monito__box">
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Aceite da viagem</h6>
+													<p class="etapas-monito__date">17/11/2020 08:00</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Aceite da viagem</h6>
+													<p class="etapas-monito__date">17/11/2020 08:00</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Início da viagem:</h6>
+													<p class="etapas-monito__date">17/11/2020 08:00</p>
+												</div>
+												<div class="etapas-monito__map">
+													<picture><source srcset="img/Mapa.webp" type="image/webp"><img src="img/Mapa.png" alt=""></picture>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div hidden id="etap-2" class="etapas-monito__content">
+								<h4 class="etapas-monito__main-subtitle">Você está visualizando:</h4>
+								<h3 class="etapas-monito__main-title">Abastecimento</h3>
+								<div data-spollers class="spollers etapas-monito__spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller class="spollers__title _spoller-active">Tracking</button>
+										<div class="spollers__body">
+											<div class="etapas-monito__box">
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Início da parada:</h6>
+													<p class="etapas-monito__date">17/11/2020 08:16</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Fim da parada:</h6>
+													<p class="etapas-monito__date">17/11/2020 08:23</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Distância percorrida: </h6>
+													<p class="etapas-monito__date">16km</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Tempo de deslocamento:</h6>
+													<p class="etapas-monito__date">00:18</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Tempo parado: </h6>
+													<p class="etapas-monito__date">00:07</p>
+												</div>
+												<div class="etapas-monito__map">
+													<picture><source srcset="img/Mapa.webp" type="image/webp"><img src="img/Mapa.png" alt="map"></picture>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div hidden id="etap-3" class="etapas-monito__content">
+								<h4 class="etapas-monito__main-subtitle">Você está visualizando:</h4>
+								<h3 class="etapas-monito__main-title">Carregamento CD - São José...ento</h3>
+								<div data-spollers class="spollers etapas-monito__spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller class="spollers__title _spoller-active">Tracking</button>
+										<div class="spollers__body">
+											<div class="etapas-monito__box">
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Início da parada:</h6>
+													<p class="etapas-monito__date">17/11/2020 08:16</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Fim da parada:</h6>
+													<p class="etapas-monito__date">17/11/2020 08:23</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Distância percorrida: </h6>
+													<p class="etapas-monito__date">16km</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Tempo de deslocamento:</h6>
+													<p class="etapas-monito__date">00:18</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Tempo parado: </h6>
+													<p class="etapas-monito__date">00:07</p>
+												</div>
+												<div class="etapas-monito__map">
+													<picture><source srcset="img/Mapa.webp" type="image/webp"><img src="img/Mapa.png" alt="map"></picture>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div hidden id="etap-4" class="etapas-monito__content">
+								<h4 class="etapas-monito__main-subtitle">Você está visualizando:</h4>
+								<h3 class="etapas-monito__main-title">Descarga - Nome cliente</h3>
+								<div data-spollers class="spollers etapas-monito__spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller class="spollers__title _spoller-active">Tracking</button>
+										<div class="spollers__body">
+											<div class="etapas-monito__box">
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Distância percorrida: </h6>
+													<p class="etapas-monito__date">16km</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Tempo de deslocamento:</h6>
+													<p class="etapas-monito__date">00:18</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Início da parada:</h6>
+													<p class="etapas-monito__date">17/11/2020 08:16</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Fim da parada:</h6>
+													<p class="etapas-monito__date">17/11/2020 08:23</p>
+												</div>
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Tempo parado: </h6>
+													<p class="etapas-monito__date">00:07</p>
+												</div>
+												<div class="etapas-monito__map">
+													<picture><source srcset="img/Mapa.webp" type="image/webp"><img src="img/Mapa.png" alt="map"></picture>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div hidden id="etap-5" class="etapas-monito__content">
+								<h4 class="etapas-monito__main-subtitle">Você está visualizando:</h4>
+								<h3 class="etapas-monito__main-title">Descarga - Armazém</h3>
+								<div data-spollers class="spollers etapas-monito__spollers">
+									<div class="spollers__item _spoller-active">
+										<button type="button" data-spoller class="spollers__title _spoller-active">Tracking</button>
+										<div class="spollers__body">
+											<div class="etapas-monito__box">
+												<div class="etapas-monito__data">
+													<h6 class="etapas-monito__subtitle">Início da parada:</h6>
+													<p class="etapas-monito__date">17/11/2020 08:16</p>
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- ----------------------------POPUP 1------------------------------------------------------------------------------- -->
+
+
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content filter">
+				<button data-close type="button" class="popup__close icon-close"></button>
+				<h2 class="filter__title">Filtros</h2>
+				<p class="filter__subtitle">Nenhum filtro aplicado</p>
+				<form name="filter" action="" class="filter__form form-filter">
+					<h5 class="form-filter__title">Viagem</h5>
+					<div class="form-filter__filds">
+						<label for="numero" class="form-filter__label">Número da Viagem
+							<input type="text" placeholder="Digite o número da viagem" id="numero" class="form-filter__fild">
+						</label>
+						<label for="praca" class="form-filter__label">Praca
+							<input type="text" placeholder="Digite a placa do veículo" id="praca" class="form-filter__fild">
+						</label>
+
+						<label for="date" class="form-filter__label"><i class="icon-calendar"></i>Data de entrega
+							<input data-datepicker type="text" placeholder="Insira a data de entrega" id="date" class="form-filter__fild date date-start">
+						</label>
+						<label for="date-2" class="form-filter__label"><i class="icon-calendar"></i>Data de entrega
+							<input data-datepicker type="text" placeholder="Insira a data de entrega" id="date" class="form-filter__fild date date-end">
+						</label>
+						<div data-showmore class=" form-filter__more more-filter">
+							<div data-showmore-content="0" class="more-filter__content ">
+								<label for="praca-2" class="form-filter__label">Praca
+									<input type="text" placeholder="Digite a placa do veículo" id="praca-2" class="form-filter__fild">
+								</label>
+								<label for="trans-2" class="form-filter__label">Transportadora
+									<input type="text" placeholder="Digite ou selecione a transportadora" id="trans-2" class="form-filter__fild">
+								</label>
+								<label for="trans" class="form-filter__label">Transportadora
+									<input type="text" placeholder="Digite ou selecione a transportadora" id="trans" class="form-filter__fild">
+								</label>
+							</div>
+							<button hidden data-showmore-button type="button" class="more-filter__more"><span class="icon-arrow-down">Mostrar mais filtros</span><span class="icon-arrow-up">Mostrar less filtros</span></button>
+						</div>
+					</div>
+					<div class="form-filter__status sls">
+						<h5 class="form-filter__title">Status da viagem</h5>
+						<label for="check-1" class="form-filter__label-check">
+							<input type="checkbox" id="check-1" class="form-filter__check">Início da viagem
+						</label>
+						<label for="check-2" class="form-filter__label-check">
+							<input type="checkbox" id="check-2" class="form-filter__check">Unidade Produtiva
+						</label>
+						<label for="check-3" class="form-filter__label-check">
+							<input type="checkbox" id="check-3" class="form-filter__check">Centro de Distribuição
+						</label>
+						<label for="check-4" class="form-filter__label-check">
+							<input type="checkbox" id="check-4" class="form-filter__check">Cliente
+						</label>
+						<label for="check-5" class="form-filter__label-check">
+							<input type="checkbox" id="check-5" class="form-filter__check">Porto
+						</label>
+						<label for="check-6" class="form-filter__label-check">
+							<input type="checkbox" id="check-6" class="form-filter__check">Fornecedor
+						</label>
+						<div data-showmore class=" form-filter__more more-filter ">
+							<div data-showmore-content="0" class="more-filter__content _second-status">
+								<label for="check-7" class="form-filter__label-check">
+									<input type="checkbox" id="check-7" class="form-filter__check">Centro de Distribuição
+								</label>
+								<label for="check-8" class="form-filter__label-check">
+									<input type="checkbox" id="check-8" class="form-filter__check">Cliente
+								</label>
+								<label for="check-9" class="form-filter__label-check">
+									<input type="checkbox" id="check-9" class="form-filter__check">Porto
+								</label>
+								<label for="check-10" class="form-filter__label-check">
+									<input type="checkbox" id="check-10" class="form-filter__check">Fornecedor
+								</label>
+							</div>
+							<button hidden data-showmore-button type="button" class="more-filter__more"><span class="icon-arrow-down">Mostrar mais filtros</span><span class="icon-arrow-up">Mostrar less filtros</span></button>
+						</div>
+					</div>
+					<div class="form-filter__status">
+						<h5 class="form-filter__title">Status do atendimento</h5>
+						<label for="status-1" class="form-filter__label-check">
+							<input type="checkbox" id="status-6" class="form-filter__check">Atende
+						</label>
+						<label for="status-3" class="form-filter__label-check">
+							<input type="checkbox" id="status-2" class="form-filter__check">Não atende
+						</label>
+						<label for="status-3" class="form-filter__label-check">
+							<input type="checkbox" id="status-3" class="form-filter__check">Risco
+						</label>
+					</div>
+					<button class="form-filter__btn btn-blue" data-popup="#popup-2" type="button" id="btn-criate">Criar filtro</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- ----------------------------POPAP 2----------------------------------- -->
+
+	<div id="popup-2" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content filter-save">
+				<button data-close type="button" class="popup__close icon-close"></button>
+				<h2 class="filter__title">Salvar filtro</h2>
+				<p class="filter__subtitle">Crie um nome para seu filtro</p>
+				<form name="form-create" class="filter__form form-create">
+					<label for="numero-crate" class="form-filter__label">Número do filtro
+						<input type="text" placeholder="Digite o número da viagem" id="numero-crate" class="form-filter__fild">
+					</label>
+					<a href="../monitoramento.html" class="form-filter__btn btn-blue" type="button" id="btn-save">Salvar</a>
+					<button class="form-filter__btn btn-white" data-popup="#popup" type="button" id="btn-back">Voltar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- ----------------------------POPUP 3-------------------------------- -->
+
+	<div id="popup-3" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content filter-menu-filter">
+				<button data-close type="button" class="popup__close icon-close"></button>
+				<h2 class="filter__title">Meus filtros</h2>
+				<p class="filter__subtitle">Selecione um dos filtros abaixo</p>
+				<form name="menu-filter" class="filter__form form-menu">
+					<label for="filter-1" class="form-menu__label">
+						<input id="filter-1" type="radio" name="filter-name" class="form-menu__fild">
+						<span>Logística A</span>
+						<a href="" data-popup="#popup" class="form-menu__rewrite "><img src="img/icons/Pencil.svg" alt=""></a>
+						<a href="" class="form-menu__delate "><img src="img/icons/Delete.svg" alt=""></a>
+					</label>
+					<label for="filter-2" class="form-menu__label">
+						<input id="filter-2" type="radio" name="filter-name" class="form-menu__fild">
+						<span>Logística A</span>
+						<a href="" data-popup="#popup" class="form-menu__rewrite "><img src="img/icons/Pencil.svg" alt=""></a>
+						<a href="" class="form-menu__delate "><img src="img/icons/Delete.svg" alt=""></a>
+					</label>
+					<div class="form-menu__btn">
+						<button class="form-filter__btn btn-blue">Aplicar filtro</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- ------------------POPUP 4------------------------- -->
+	<div id="popup-4" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content filter-finish">
+				<button data-close type="button" class="popup__close icon-close"></button>
+				<h2 class="filter__title">Excluir filtro</h2>
+				<p class="filter__text">Tem certeza que deseja excluir o filtro <span>“Logística B”</span>?
+					Esta ação não pode ser desfeita.</p>
+				<form name="filter-finish" class="filter__form form-filter-finish">
+					<button class="form-filter__btn btn-white">Cancelar</button>
+					<button class="form-filter__btn btn-blue">Excluir</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!----------------------------Panel popap 1 -->
+
+	<div id="popup-panel-1" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content filter">
+				<button data-close type="button" class="popup__close icon-close"></button>
+				<h2 class="filter__title">Filtros</h2>
+				<p class="filter__subtitle">Nenhum filtro aplicado</p>
+				<form name="filter" action="" class="filter__form form-filter">
+					<h5 class="form-filter__title">Viagem</h5>
+					<div class="form-filter__filds">
+						<label for="select-panel" class="form-filter__label label-unidade">Unidade</label>
+						<select id="select-panel" name="form[]" data-show-selected data-class-modif="form">
+							<option value="">Digite ou selecione a unidade</option>
+							<option value="1">Unidade 1</option>
+							<option value="2">Unidade 2</option>
+							<option value="2">Unidade 3</option>
+							<option value="2">Unidade 4</option>
+						</select>
+						<label for="praca" class="form-filter__label">Praca
+							<input type="text" placeholder="Digite a placa do veículo" id="praca-panel" class="form-filter__fild">
+						</label>
+					</div>
+					<div class="form-filter__status sls">
+						<h5 class="form-filter__title">Prioridade</h5>
+						<label for="check-panel-1" class="form-filter__label-check">
+							<input type="checkbox" id="check-panel-1" class="form-filter__check">Alta
+						</label>
+						<label for="check-panel-2" class="form-filter__label-check">
+							<input type="checkbox" id="check-panel-2" class="form-filter__check">Media
+						</label>
+						<label for="check-panel-3" class="form-filter__label-check">
+							<input type="checkbox" id="check-panel-3" class="form-filter__check">Daixa
+						</label>
+					</div>
+					<div class="form-filter__status">
+						<h5 class="form-filter__title">Status do atendimento</h5>
+						<label for="status-panel-1" class="form-filter__label-check">
+							<input type="checkbox" id="status-panel-6" class="form-filter__check">Pendante
+						</label>
+						<label for="status-panel-3" class="form-filter__label-check">
+							<input type="checkbox" id="status-panel-2" class="form-filter__check">Em atendimento
+						</label>
+						<label for="status-panel-3" class="form-filter__label-check">
+							<input type="checkbox" id="status-panel-3" class="form-filter__check">Stand-by
+						</label>
+						<label for="status-panel-4" class="form-filter__label-check">
+							<input type="checkbox" id="status-panel-4" class="form-filter__check">Rinalizada
+						</label>
+					</div>
+					<button class="form-filter__btn btn-blue" data-popup="#popup-panel-2" type="button" id="btn-panel-criate">Criar filtro</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-panel-2" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content filter-save">
+				<button data-close type="button" class="popup__close icon-close"></button>
+				<h2 class="filter__title">Salvar filtro</h2>
+				<p class="filter__subtitle">Crie um nome para seu filtro</p>
+				<form name="form-create" class="filter__form form-create">
+					<label for="numero-crate-panel" class="form-filter__label">Número do filtro
+						<input type="text" placeholder="Digite o número da viagem" id="numero-crate-panel" class="form-filter__fild">
+					</label>
+					<a href="../panel.html" class="form-filter__btn btn-blue" type="button" id="btn-save-panel-filter">Salvar</a>
+					<button class="form-filter__btn btn-white" data-popup="#popup" type="button" id="btn-back-to-filter">Voltar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- ----------------------------REGISCTRATION------------------------------------------------------------------------------- -->
+
+	<div id="registration" aria-hidden="true" class="popup registration">
+		<div class="popup__wrapper registration__wrapper">
+			<div class="popup__content registration__content">
+				<img src="img/logo-in.svg" alt="logo-brf" class="registration__logo">
+				<form action="" name="registration" method="post" class="registration__form">
+					<label class="registration__label" for="userMail">
+						<span>e-mail</span>
+						<input type="text" name="userMail" id="userMail" placeholder="Ex: seunomed@brf.com" class="registration__usermail">
+						<i class="icon-email-action"></i>
+					</label>
+					<label class="registration__label" for="userPassword">
+						<span>Senha</span>
+						<input type="password" name="userPassword" id="userPassword" placeholder="Digite SSA Senha" class="registration__userpassword">
+						<i class="registration__icon icon-lock"></i>
+						<i class="registration__icon icon-view-off"></i>
+					</label>
+					<label class="registration__label" for="userCheck">
+						<input class="registration__usercheck" type="checkbox" name="userCheck" id="userCheck">
+						<span>Keep me connected</span></label>
+					<button name="submit" type="submit" class="registration__button">Entrar</button>
+				</form>
+				<a href="#" class="registration__quastion">Esqueceu sua senha?</a>
+			</div>
+			<img class="registration__tivit" src="img/registration/tivit.svg" alt="tivit">
+		</div>
+	</div>
+
+	<script src="js/app.min.js?_v=20230303142121"></script>
+</body>
+
+</html>
